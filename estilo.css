@@ -24,6 +24,7 @@ h3{
     color: #9e8c6c;
     margin: 10px 0;
 }
+
 h4{
     font-size: 66px;
     font-weight: 900;
@@ -150,6 +151,7 @@ ul li a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    color: #000000;
 }
 .barra{ 
     width: 71px;
@@ -210,6 +212,8 @@ ul li a {
     }
     .tituloedata{
         flex-direction: column;
+        color: #000000;
+        
     }
 
     .barra{
