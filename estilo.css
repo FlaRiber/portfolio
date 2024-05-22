@@ -212,16 +212,15 @@ ul li a {
     }
     .tituloedata{
         flex-direction: column;
-        color: #000000;
-        
+        color: #000000;    
     }
 
     .barra{
         width: 54px;
         height: 10px;
         background: #0699A6;
-
     }
+    
     #footer .container{
         font-size: 20px;
         line-height: 36px;
