@@ -100,13 +100,9 @@ ul li a {
     padding-top: 96px;
 }
 .sobre{
-    width: 635px;
+    max-width: 635px;
 }
-
-#main .container{
-    
-     
-}
+      
 #main .container a{
     color: #0699A6;
     line-height: 34px;
@@ -118,7 +114,8 @@ ul li a {
  
     justify-content: center;
     margin-top: 66px;
-    width: 350px; 
+    max-width: 350px; 
+    
 }
 
 .skillset, .awards, .career, .recentworks{
@@ -158,14 +155,19 @@ ul li a {
     width: 71px;
     height: 10px;
     background: #0699A6;
+    margin: 40px 0 40px 20px;
 }
 
 
 /*---TABLET---*/
 @media screen and (max-width: 768px) {
+   #main .container{
+    flex-direction: column-reverse;
+        
+   }
     h1{
         font-size: 56px;
-        line-height: 76px;
+        line-height: 46px;
     }
     #header{
         padding: 80px 0 130px 0;
@@ -177,15 +179,20 @@ ul li a {
     #header .container{
         flex-direction: column;
         align-items: center;
-        display: flex;
     }     
 
     .perfil-sobre{
-        flex-direction: column;
+        
         align-items: center;
-        display: flex;
         text-align: center;
     }
+    .skills{
+        max-width: 335px;
+    }
+    .sobre{
+        max-width: 335px;
+    }
+
     h2{
         font-size: 32px;
         font-weight: 900;
@@ -201,9 +208,12 @@ ul li a {
         font-size: 40px;
         line-height: 50px;
     }
-    
+    .tituloedata{
+        flex-direction: column;
+    }
+
     .barra{
-        width: 71px;
+        width: 54px;
         height: 10px;
         background: #0699A6;
 
@@ -213,9 +223,8 @@ ul li a {
         line-height: 36px;
     }
     
-    .skillset
 } 
-  /*---Mobile---*/
+ 
 
  
 
