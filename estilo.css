@@ -21,7 +21,8 @@ h3{
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 2px;
-    color: #9e8c6c;
+    color: #D1C3AF
+;
     margin: 10px 0;
 }
 
@@ -44,7 +45,7 @@ p{
 
 .botao{
     padding: 16px 45px;
-    background-color: #0699A6;
+    background-color: #A66606;
     font-size: 18px;
     font-weight: 900;
     text-decoration: none;
@@ -64,21 +65,22 @@ ul{
     list-style: none;
     padding-left: 0;
 }
-ul li  {
+ul li{
     font-size: 20px;
     line-height: 34px 
 }
-ul li a {
-    color: #0699A6;
+ul li a{
+    color: #A66606;
     text-decoration: none;  
     font-weight: 700; 
 }
 
 /* --- HEADER --- */
+
 #header{
     width: 100%;
     padding: 180px 0 209px 0;
-    background-color: #9E8C6C11;
+    background-color: #D1C3AF;
 }
 
 .perfil{
@@ -105,7 +107,7 @@ ul li a {
 }
       
 #main .container a{
-    color: #0699A6;
+    color: #A66606;
     line-height: 34px;
     font-size: 20px;
     text-decoration: none;
@@ -124,7 +126,7 @@ ul li a {
 }
   
 #footer{
-    background-color: #9e8c6c11;
+    background-color: #D1C3AF;
     width: 100%;
     height: 547px;
 }
@@ -132,9 +134,11 @@ ul li a {
 #footer .container{
     flex-direction: column;
     align-items: center;
+    background-color: #D1C3AF;
+    
 }
 #footer .container a{
-    color: #0699A6;
+    color: #A66606;
     line-height: 46px;
     font-size: 36px;
     text-align: center;
@@ -145,6 +149,7 @@ ul li a {
     width: 243px;
     display: flex;
     justify-content: space-between;
+     
 }
 
 .tituloedata{
@@ -156,7 +161,7 @@ ul li a {
 .barra{ 
     width: 71px;
     height: 10px;
-    background: #0699A6;
+    background: #A66606;
     margin: 40px 0 40px 20px;
 }
 
@@ -218,9 +223,10 @@ ul li a {
     .barra{
         width: 54px;
         height: 10px;
-        background: #0699A6;
+        background: #A66606
+;
     }
-    
+
     #footer .container{
         font-size: 20px;
         line-height: 36px;
